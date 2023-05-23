@@ -1,0 +1,9 @@
+gb7-st-mpadminapi-001
+
+gb7-st-mpapi-001
+
+gb7-st-mpapi-002
+
+gb7-st-mpauthentication-001
+
+
