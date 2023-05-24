@@ -36,3 +36,12 @@ const transferToArrayOfObjects = arrayOfVMs.map((value) => {
 });
 
 console.log(transferToArrayOfObjects);
+
+fs.writeFile(
+  "./vm_list/results.json",
+  JSON.stringify(transferToArrayOfObjects),
+  (error) => {
+    if (error) throw error;
+    console.log("Write completed successfully");
+  }
+);
